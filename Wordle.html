@@ -1,0 +1,22 @@
+<!--
+    Wordle.html should capture user input and send it to Wordle.js to process, then output what Wordle.js returns.
+-->
+<!DOCTYPE html>
+<link rel="icon" href="src/favicon.ico" type="image/x-icon">
+<html>
+    <head>
+        <link rel="stylesheet" href = "src/style.css">
+        <title>Wordle Solver</title>
+    </head>
+    <body>
+        <h1 style="font-size: 80px;">Wordle Solver</h1>
+        <h2>Please enter the results of each word choice.</h2>
+        <h2>Only enter 5-letter words, using lower-case letters, *, and -.</h2> 
+        <button style = "background-color: fuchsia" id="refresh">refresh game</button>
+        <input type="text" id="textInput">
+        <button style = "background-color: lightgreen" onclick="submitText()">Submit</button>
+        <h3 id="result"></h3>
+        <h2 style = "color: purple" id="next"></h2>
+        <script src="src/prompt.js"></script>
+    </body>
+</html>

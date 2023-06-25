@@ -1,0 +1,23 @@
+h1 {
+  color: goldenrod;
+  border-color: aqua;
+  background-color: lightgrey;
+  font-size: 100;
+}
+
+h2 {
+  color: seagreen;
+  border-color: aqua;
+  background-color: lightgrey;
+}
+
+h3 {
+  color: gray;
+  border-color: aqua;
+  background-color: lightgrey;
+}
+
+body {
+  color: darkgreen;
+  background-color: lightgrey;
+}
